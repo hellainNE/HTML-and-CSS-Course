@@ -74,11 +74,6 @@ p{
 .tweet-btn:hover{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
 }
-
-.tweet-btn:active{
- 
-}
-
 .request-btn{
   background-color: black;
   color: white;
@@ -89,6 +84,11 @@ p{
   margin-top: 5px;
   margin-right: 118px;
   margin-bottom: 10px;
+  transition: opacity 0.15s;
+}
+
+.request-btn:hover{
+  opacity: 0.8;
 }
 
 .addtocart-btn{
@@ -103,6 +103,11 @@ p{
   margin-right: 150px;
   margin-top: 5px;
   margin-bottom: 10px;
+  transition: background-color 0.15s;
+}
+
+.addtocart-btn:hover{
+  background-color: rgb(240, 208, 45);
 }
 
 .signup-btn{
@@ -118,8 +123,12 @@ p{
   margin-right: 105px;
   margin-top: 5px;
   margin-bottom: 10px;
+  transition: box-shadow 0.15s;
 }
 
+.signup-btn:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .15);
+}
 .getstarted-btn{
   background-color: rgb(121, 82, 179);
   color: white;
@@ -131,6 +140,11 @@ p{
   border: none;
   border-radius: 4px;
   margin-right: 8px;
+  transition: background-color 0.15s;
+}
+
+.getstarted-btn:hover{
+  background-color: rgb(110, 78, 159);
 }
 
 .download-btn{
@@ -147,8 +161,13 @@ p{
   margin-right: 100px;
   margin-top: 5px;
   margin-bottom: 10px;
+  transition: background-color 0.15s, color 0.15s;
 }
 
+.download-btn:hover{
+  background-color: rgb(108, 117, 125);
+  color:white;
+}
 .apply-btn{
 background-color: rgb(10,102,194);
 color: white;
@@ -160,6 +179,11 @@ font-weight: bold;
 font-size:16px;
 margin-right: 5px;
 cursor: pointer;
+transition: background-color 0.15s;
+}
+
+.apply-btn:hover{
+  background-color: rgb(24, 89, 155);
 }
 
 .save-btn{
@@ -173,4 +197,10 @@ cursor: pointer;
   font-weight: bold;
   font-size:16px;
   border-radius: 30px;
+  transition: border-width 0.15s, background-color 0.15s;
+}
+
+.save-btn:hover{
+  border-width: bold;
+  background-color: rgb(222, 238, 255);
 }
