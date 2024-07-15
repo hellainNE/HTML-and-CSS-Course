@@ -1,0 +1,87 @@
+.pic{
+  width:200px;
+  border-radius: 10px;
+}
+.pic1{
+  width:150px;
+  height:150px;
+display: block;
+overflow: hidden;
+}
+.pic2{
+  width:150px;
+  height:150px;
+  border-radius: 900%;
+}
+.round{
+ border-radius:5px;
+ border-style: solid;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left:8px;
+border-color: rgb(232, 231, 231);
+font-size:12px;
+
+}
+.round1{
+  border-radius:10px;
+  border-style: solid;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left:10px;
+  padding-right:100px;
+  border: none;
+ font-size:11px;
+ width:200px;
+box-shadow: 2px  1px 4px rgb(212, 212, 212);
+ }
+ .email{
+  margin-bottom: 2px;
+  font-size: 13px;
+  font-family: Arial;
+ }
+ .round2{
+  border-color: rgb(95, 95, 95);
+  border-style: solid;
+  border-radius: 3px;
+  padding-right: 100px;
+  margin-top: 0;
+ }
+
+ .desc{
+  font-size: 12px;
+  font-family: Arial;
+ }
+
+ .btn{
+  background-color: rgb(64, 64, 184);
+  border: none;
+  color:white;
+  border-radius:20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top:10px;
+  padding-bottom: 10px;
+ }
+
+ .pic3{
+  width:40px;
+  height:40px;
+  border-radius: 500%;
+  vertical-align: middle;
+ }
+ .round3{
+ border: none;
+ }
+
+ .btn1{
+  background-color: rgb(4, 132, 211);
+  color: white;
+  border: none;
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius:30px;
+  font-size:12px;
+ }
