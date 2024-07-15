@@ -1,1 +1,1 @@
-This file is my first website for the buttons in HTML and CSS
+Basic structure of HTML and CSS that can use in making a website, such as buttons, texts, hovering etc.
