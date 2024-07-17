@@ -1,0 +1,47 @@
+.red{
+ background-color: red;
+ border: none;
+ padding:100px;
+ width: 100px;
+}
+.red1{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 50px;
+  width: 200px;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+}
+.div2{
+  border: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 300px;
+  width: 350px;
+  background-color: rgb(51, 48, 48);
+  color:white;
+}
+
+.title{
+ font-weight:bold ;
+ font-family: arial;
+ font-size: 20px;
+
+}
+
+.desc{
+font-size:15px;
+font-family: arial;
+}
+
+.circle{
+  width:0px;
+  border: none;
+  padding:100px;
+  border-radius: 100px;
+background-color: green;
+}
