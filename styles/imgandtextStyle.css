@@ -7,11 +7,13 @@
   height:150px;
 display: block;
 overflow: hidden;
+object-fit: cover;
 }
 .pic2{
   width:150px;
   height:150px;
   border-radius: 900%;
+  object-fit: cover;
 }
 .round{
  border-radius:5px;
@@ -22,6 +24,10 @@ overflow: hidden;
 border-color: rgb(232, 231, 231);
 font-size:12px;
 
+}
+
+.logo, .search{
+text-align: center;
 }
 .round1{
   border-radius:10px;
@@ -69,6 +75,7 @@ box-shadow: 2px  1px 4px rgb(212, 212, 212);
   height:40px;
   border-radius: 500%;
   vertical-align: middle;
+  object-fit: cover;
  }
  .round3{
  border: none;
@@ -85,3 +92,4 @@ box-shadow: 2px  1px 4px rgb(212, 212, 212);
   border-radius:30px;
   font-size:12px;
  }
+
