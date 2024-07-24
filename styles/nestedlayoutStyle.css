@@ -1,0 +1,65 @@
+.pp1{
+  width:150px;
+  height:140px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.pp11{
+  width:20px;
+  height:20px;
+  border-radius: 50px;
+  margin-left: 5px;
+  object-fit: cover;
+  vertical-align: middle;
+  
+}
+.profile{
+  width:150px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right:10px;
+}
+.profilepic11{
+  display: inline-block;
+  width:22px;
+  height: 22px;
+  
+}
+.mutual{
+  display: inline-block;
+  height:20px;
+}
+.mutualf{
+  margin-top: 0px;
+  margin-left: 3px;
+  color: rgb(100, 100, 100);
+  font-size:13px;
+  font-family: arial;
+}
+.name1{
+  height:20px;
+ 
+}
+.name{
+  margin-top:0;
+  font-family: arial;
+  font-weight: bold;
+  font-size:14px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.button1{
+  margin-top:10px;
+  margin-left:5px;
+}
+.addfriend{
+  background-color: rgb(24, 119, 242);
+  border: none;
+  color: white;
+  padding-top:6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right:10px;
+  border-radius:5px;
+  margin-bottom: 10px;
+}
