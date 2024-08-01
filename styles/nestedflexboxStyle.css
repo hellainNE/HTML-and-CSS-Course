@@ -1,0 +1,17 @@
+.container1{
+  margin-top:20px;
+  display:flex;
+}
+.item1{
+  background-color: lightpink;
+  width:100px;
+}
+.item2{
+  background-color: skyblue;
+  width:200px;
+}
+.item3{
+  display:flex;
+  justify-content: space-between;
+}
+
